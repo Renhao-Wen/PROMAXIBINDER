@@ -16,6 +16,10 @@
 >
 > 4 执行 npm start
 
+### 项目原型
+请参考：https://wpc352.axshare.com/?g=4
+
+
 
 
 
