@@ -9,28 +9,31 @@
 </head>
 
 <body>
-
   <!--导航栏部分-->
   <div class="top">
-    <nav class="navbar navbar-expand-lg nar-bg">
+    <nav class="navbar navbar-expand-md navbar-fixed-top nar-bg">
       <div class="container-fluid">
         
+        <div class="navbar-brand m" href="#">
+          <a><div class="logo-img"></div></a>
+        </div>
+        
         <a class="navbar-brand mx-auto" href="#"><div id="logo-img"></div></a>
-
+      
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ml-3 mb-2 mb-lg-0">
             <li class="nav-item nar-margin"><a class="nav-link nar-font" aria-current="page" href="#">HOME</a></li>
             
             <li class="nav-item dropdown nar-margin">
               <a class="nav-link dropdown-toggle nar-font" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">DISCOVER</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">All Product</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li><hr class="dropdown-divider"></li> 
                 <li><a class="dropdown-item" href="#">Series I</a></li>
                 <li><a class="dropdown-item" href="#">Series II</a></li>
                 <li><a class="dropdown-item" href="#">Series III</a></li>
@@ -41,7 +44,6 @@
             </li>
 
             <li class="nav-item nar-margin"><a class="nav-link nar-font" aria-current="page" href="#">SOCIAL MEDIA</a></li>
-
             <li class="nav-item nar-margin"><a class="nav-link nar-font" aria-current="page" href="#">ABOUT US</a></li>
 
           </ul>
@@ -51,15 +53,36 @@
   </div>
 
   <!--背景图片-->
+  <div class="jumbotron jumbotron-bg">
+    <div class="container-fluid bg-custom">
+      <div id="screen-img"></div>
+      <div class="row">
+          <div class="col text-center">
+              <h1 class="position-text1">Epic Game Begin with Legendary Protection</h1>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--Featured Products-->
+  <div class="row">
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label</h3>
+          <p>...</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
   <div class="row-content container-fluid bg-custom ">
     <div class="row ">
         <div class="col text-center text-white">
             <h1>Epic Game Begin with Legendary Protection</h1>
         </div>
+      </div>
     </div>
   </div>
 
  
+
 
   <script src="./main.js"></script>
 </body>
