@@ -63,12 +63,12 @@ body {
     background-image: url('/src/image/Homepage-1.png');
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Adjust the height as needed */
+    height: 918px; /* Adjust the height as needed */
 }
 
 
 
-/* 巨幕中文字部分 */
+/* 巨幕设置 */
 .bg-custom {
     padding: 0;
 }
@@ -79,9 +79,34 @@ body {
     text-align:center;
     background-color: rgba(30,30,30,0.56);
     color: rgba(244,236,206);
-    width: auto; /* 设置宽度 */
-    height: auto; /* 设置高度 */
+    width: auto; /* 设置背景宽度 */
+    height: auto; /* 设置背景高度 */
     top:480px;
     left: 50%;
     transform: translateX(-50%);
 }
+
+/* 产品部分 */
+.featured-custom {
+    background-color: rgba(27,27,27);
+    padding: 0;
+    width: 100%;
+}
+
+.position-text2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 500px;
+    text-align:center;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.AD-custom {
+    background-color: rgba(27,27,27);
+    padding: 0;
+    width: 100%;
+}
+
